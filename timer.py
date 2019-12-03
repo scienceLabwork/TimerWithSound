@@ -28,7 +28,7 @@ else:
     r = input("Timer for how long? ")
 
 while True:
-    x = playsound('/Users/rudrashah/Desktop/My_python_course/analog-watch-alarm_daniel-simion.mp3')
+    x = playsound('audio.mp3') #Add location of your audio file here or else I have set up an Audio file in repository
     
 print("\nYour timer for",userNumInput,userStrInput,"is now over")
 print("\n      Created by Rudra shah")
