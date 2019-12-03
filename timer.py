@@ -1,5 +1,5 @@
 import time
-from playsound import playsound #installation of playsound library is given in readme file....check ou there
+from playsound import playsound #installation of playsound libraby is given in readme file
 
 r = input("Timer for how long? ")
 userNumInput = ''.join(x for x in r if x.isdigit())
@@ -27,8 +27,8 @@ else:
     print("\n This Timer can only be set for minutes and seconds!!")
     r = input("Timer for how long? ")
 
-while True:
-    x = playsound('audio.mp3') #Add location of your audio file here or else I have set up an Audio file in repository
+for i in range(0,30):
+    x = playsound('TimerAudio.mp3') #Use your Audio path and paste it here to use your personalise Audio
     
 print("\nYour timer for",userNumInput,userStrInput,"is now over")
 print("\n      Created by Rudra shah")
