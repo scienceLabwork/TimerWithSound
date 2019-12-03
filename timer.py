@@ -1,5 +1,5 @@
 import time
-from playsound import playsound
+from playsound import playsound #installation of playsound library is given in readme file....check ou there
 
 r = input("Timer for how long? ")
 userNumInput = ''.join(x for x in r if x.isdigit())
