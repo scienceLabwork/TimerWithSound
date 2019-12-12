@@ -5,3 +5,11 @@ This is a simple Example of a timer with sound
 
 # How to install
 `git clone https://github.com/scienceLabwork/TimerWithSound`
+
+# Library used:
+1) playsound
+
+# My webpage
+[sciencelabwork](http://www.sciencelabwork.cf)
+
+"All rights reserved & logo shouldn't be remade without prior permission"
